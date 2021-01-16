@@ -1,6 +1,6 @@
 require_relative "./vehicle.rb"
 class Car < Vehicle
 def go
-  Vehicle.go.upcase
+  self.go.upcase
 end
 end
